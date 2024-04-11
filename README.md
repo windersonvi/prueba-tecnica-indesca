@@ -22,7 +22,7 @@ Al igual que para el diseño  CSS y Material UI
 
 ## Instalación de dependencias Frontend
 ```bash
-  cd taller_js
+  cd api_front
   npm install i
 ```
 
