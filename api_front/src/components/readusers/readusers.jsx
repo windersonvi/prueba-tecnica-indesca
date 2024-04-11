@@ -35,40 +35,40 @@ function ReadUsers() {
         <>
         <Header />
         <div className='container'>
-            <h1 className='titledata'>Información del usuario {user.id}</h1>
+            <h1 className='titledata'>Información de Usuario N.{user.id}</h1>
             <form className='datosapi'>
                 <div className='databot'>
-                    <label>Nombre y Apellido: {user.name}</label>
+                    <label><b>Nombre y Apellido:</b> {user.name}</label>
                 </div>
                 <div className='databot'>
-                    <label>Email: {user.email}</label>
+                    <label><b>Email:</b> {user.email}</label>
                 </div>
                 <div className='databot'>
-                    <label>Teléfono: {user.phone}</label>
+                    <label><b>Teléfono:</b> {user.phone}</label>
                 </div>
                 <div className='databot'>
-                    <label>Website: {user.website}</label>
+                    <label><b>Website:</b> {user.website}</label>
                 </div>
                 <div className='databot'>
-                    <label>Username: {user.username}</label>
+                    <label><b>Username:</b> {user.username}</label>
                 </div>
                 <div className='databot'>
-                    <label>Dirección: {user.address.street}</label>
+                    <label><b>Dirección:</b> {user.address.street}</label>
                 </div>
                 <div className='databot'>
-                    <label>Suite: {user.address.suite}</label>
+                    <label><b>Suite:</b> {user.address.suite}</label>
                 </div>
                 <div className='databot'>
-                    <label>Ciudad: {user.address.city}</label>
+                    <label><b>Ciudad:</b> {user.address.city}</label>
                 </div>
                 <div className='databot'>
-                    <label>Código postal: {user.address.zipcode}</label>
+                    <label><b>Código postal:</b> {user.address.zipcode}</label>
                 </div>
                 <div className='databot'>
-                    <label>Nombre de la empresa: {user.company.name} </label>
+                    <label><b>Nombre de la empresa:</b> {user.company.name} </label>
                 </div>
             </form>
-            <Button variant='contained' component={Link} to={`/`}>
+            <Button variant='contained' color='error' component={Link} to={`/`}>
                 Volver
             </Button>
         </div>

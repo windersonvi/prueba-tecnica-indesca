@@ -55,13 +55,13 @@ function Users() {
         <Paper className='contenedor' sx={{ width: '100%', overflow: 'hidden' }}>
             <TableContainer sx={{ maxHeight: 400 }}>
                 <Table className='table' stickyHeader aria-label="sticky table">
-                    <TableHead>
+                    <TableHead className='table-head'>
                         <TableRow className='rowtable'>
                             {columns.map((column) => (
                                 <TableCell
                                     key={column.id}
                                     align="left"
-                                    style={{ minWidth: column.minWidth }}
+                                    style={{ minWidth: column.minWidth}}
                                 >
                                     {column.label}
                                 </TableCell>
@@ -84,7 +84,7 @@ function Users() {
                                             );
                                         })}
                                         <TableCell align="left">
-                                            <Button variant='contained' component={Link} to={`/readUsers/${row.id}`}>
+                                            <Button variant='contained' color='error' component={Link} to={`/readUsers/${row.id}`}>
                                                 Ver
                                             </Button>
                                         </TableCell>

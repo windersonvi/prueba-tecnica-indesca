@@ -3,7 +3,10 @@ import './header.css';
 const Header = () => {
     return (
         <header className='header'>
-            <h1>Prueba Técnica INDESCA</h1>
+            <nav>
+                <h1>Lista de Usuarios</h1>
+                <h4>INDESCA</h4>
+            </nav>
         </header>
     );
 };

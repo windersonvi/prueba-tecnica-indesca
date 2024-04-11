@@ -1,18 +1,18 @@
 .contenedor{
-    min-height: 75vh;
-    position:relative;
+    display: grid;
+    place-content: center;
+    height: 70vh;
 }
 
 .table {
-    background-color: #f9c5c5;
-    border-collapse: collapse;
+    min-width: 990px;
+    background-color: #fff4f4;
 }
 
 .table th, .table td {
-    border: 1px solid #402929; 
-    padding: 10px;
-    font-family: Georgia;
-    font-size: 15px;
-    text-align: center; 
+    border: 1.5px solid #2c0404; 
+    padding: 0.7rem;
+    font-family: "Poppins-Regular";
+    font-size: 1rem;
+    text-align: center;
 }
-

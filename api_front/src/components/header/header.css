@@ -1,18 +1,23 @@
 .header{
-    justify-content: space-between;
-    padding: 10px 20px;
-    margin-bottom: 35px;
-    text-align: center;
-    background-color: #ea3c07;
-    border-bottom: 2px solid #101314;
-    border-top:  2px solid #101314 ;
-    border-left:  2px solid #101314;
-    border-right: 2px solid #101314;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #787878;
 }
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 h1{
-    font-size: 25px;
-    font-weight: 800;
-    font-family: georgia;
+    font-size: 2rem;
+    font-family: "Poppins-semi-bold";
     color: #010101;
+}
+h4{
+    font-size: 1.2rem;
+    font-family: "Poppins-regular";
+    color: #6a0b0b;
+    border: 1px solid #690f0f;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
