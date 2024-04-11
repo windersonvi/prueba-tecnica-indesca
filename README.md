@@ -19,6 +19,12 @@ Al igual que para el diseño  CSS y Material UI
 
 [![My Skills](https://skillicons.dev/icons?i=materialui,css)]()
 
+
+## Clonacion del pryecto
+```bash
+  git clone https://github.com/windersonvi/prueba-tecnica-indesca.git
+```
+
 ## Instalación de dependencias Frontend
 ```bash
   cd api_front
