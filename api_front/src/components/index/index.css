@@ -1,0 +1,18 @@
+.contenedor{
+    min-height: 75vh;
+    position:relative;
+}
+
+.table {
+    background-color: #f9c5c5;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #402929; 
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 15px;
+    text-align: center; 
+}
+

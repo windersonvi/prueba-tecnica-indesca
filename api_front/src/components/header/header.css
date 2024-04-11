@@ -1,0 +1,18 @@
+.header{
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    background-color: #ea3c07;
+    border-bottom: 2px solid #101314;
+    border-top:  2px solid #101314 ;
+    border-left:  2px solid #101314;
+    border-right: 2px solid #101314;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: georgia;
+    color: #010101;
+}
