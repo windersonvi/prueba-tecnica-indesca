@@ -22,7 +22,7 @@ Al igual que para el diseño  CSS y Material UI
 ## Instalación de dependencias Frontend
 ```bash
   cd api_front
-  npm install i
+  npm install 
 ```
 
 ## Ejecutar server del Frontend
