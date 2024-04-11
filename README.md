@@ -1,5 +1,4 @@
-# Bienvenidos a la tarea de JAVASCRIPT de la Universidad Rafael Belloso Chacin (URBE) 
-
+# Prueba Tecnica Indesca
 En este este proyecto se deben de tomar en cuenta las siguientes instrucciones para poder ser utilizado correctamente.
 
 ## Frontend
@@ -30,3 +29,14 @@ Al igual que para el diseño  CSS y Material UI
 ```bash
   npm run dev
 ```
+## Hosting
+
+Se utilizo como hosting vercel para poder el deploy a la web
+
+[![My Skills](https://skillicons.dev/icons?i=vercel)]()
+
+## Link de la pagina web
+
+[Prueba Tecnica](https://prueba-tecnica-indesca-six.vercel.app/)
+
+
